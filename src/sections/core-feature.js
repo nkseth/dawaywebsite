@@ -14,7 +14,7 @@ const data = {
     {
       id: 1,
       imgSrc: Briefcase,
-      altText: 'Mentorship in chnage',
+      altText: 'Mentorship',
       title: 'Mentorship',
       text:
         'Get mentorship at each phase of your learning and learn the right way ',
