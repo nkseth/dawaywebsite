@@ -3,35 +3,9 @@ import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
-
-import client1 from 'assets/sponsor/paypal.svg';
-import client2 from 'assets/sponsor/google.svg';
-import client3 from 'assets/sponsor/dropbox.svg';
-
-const data = [
-  {
-    id: 1,
-    path: '#',
-    image: client1,
-    title: 'paypal',
-  },
-  {
-    id: 2,
-    path: '#',
-    image: client2,
-    title: 'google',
-  },
-  {
-    id: 3,
-    path: '#',
-    image: client3,
-    title: 'dropbox',
-  },
-];
 
 export default function Banner() {
   const [videoOpen, setVideoOpen] = useState(false);
@@ -44,10 +18,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          Discover Real-time Knowledge with experts
+          Discover Real Knowledge with experts
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get pumped up and boost your carrier with learning industry skills , work on real life projects, internships and much more .
+          The most difficult part of making a successful carrier is getting started. Give your career a boost by learning industry skills, work on real-life projects, internships, and expert guidance.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
@@ -69,16 +43,7 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
-          <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
-            <Box sx={styles.sponsorBox.sponsor}>
-              {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
-                </Link>
-              ))}
-            </Box>
-          </Flex>
+          
         </Box>
 
         <Box sx={styles.banner.imageBox}>

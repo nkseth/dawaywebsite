@@ -3,8 +3,8 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo-dark.svg';
-import LogoWhite from 'assets/logo.svg';
+import LogoDark from 'assets/logo-dark.png';
+import LogoWhite from 'assets/logo.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -15,7 +15,7 @@ export default function Header({ className }) {
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
           <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
-
+          <h1 style={{fontSize:'1rem'}}>The Way of Success</h1>
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <Link
@@ -37,7 +37,7 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-            Login / SignUp
+            Get Started
           </Button>
 
           <MobileDrawer />
