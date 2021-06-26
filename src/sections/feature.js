@@ -3,59 +3,59 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
-import Smart from 'assets/feature/smart.svg';
-import Winner from 'assets/feature/winner.svg';
-import Cloud from 'assets/feature/cloud.svg';
-import Setting from 'assets/feature/setting.svg';
-import Design from 'assets/feature/design.svg';
-import Chat from 'assets/feature/chat.svg';
+import Smart from 'assets/feature/video-tutorials.png';
+import Winner from 'assets/feature/teaching.png';
+import Cloud from 'assets/feature/quiz.png';
+import Setting from 'assets/feature/assignment.png';
+import Design from 'assets/feature/question.png';
+import Chat from 'assets/feature/businessman.png';
 
 const data = [
   {
     id: 1,
     imgSrc: Smart,
-    altText: 'Smart',
-    title: 'Smart Features',
+    altText: 'Practical Learning',
+    title: 'Practical Learning',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
   {
     id: 2,
     imgSrc: Winner,
-    altText: 'Performance',
-    title: 'Fast Performance',
+    altText: 'Interaction With Expert',
+    title: 'Interaction With Expert',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
   {
     id: 3,
     imgSrc: Cloud,
-    altText: 'Content',
-    title: 'Unlimited Content',
+    altText: 'Quizzes',
+    title: 'Quizzes',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
   {
     id: 4,
     imgSrc: Setting,
-    altText: 'Customization',
-    title: 'Unlimited Customization',
+    altText: 'Real-time Assignments',
+    title: 'Real-time Assignments',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
   {
     id: 5,
     imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
+    altText: 'Doubt Checking',
+    title: 'Doubt Checking',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
   {
     id: 6,
     imgSrc: Chat,
-    altText: 'Support',
-    title: 'Customer Support',
+    altText: 'Internships',
+    title: 'Internships',
     text:
       'Get your blood tests delivered at let home collect sample from the victory of the managements.',
   },
