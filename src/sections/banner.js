@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/goal.png';
 
 export default function Banner() {
   const [videoOpen, setVideoOpen] = useState(false);
@@ -80,11 +80,11 @@ const styles = {
       display: ['none', null, null, 'block'],
       justifyContent: 'center',
       ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
-      mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
+      mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-250px'],
       mt: [0, null, null, '40px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
-      textAlign: 'right',
+      textAlign: 'center',
       width: '100%',
     },
   },
