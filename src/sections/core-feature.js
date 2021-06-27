@@ -9,7 +9,7 @@ import Secure from 'assets/core-feature/tent.png';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Learn,Practice and Placed',
+  title: 'Learn,Practice and Get Placed',
   features: [
     {
       id: 1,
@@ -17,7 +17,7 @@ const data = {
       altText: 'Mentorship',
       title: 'Mentorship',
       text:
-        'Get mentorship at each phase of your learning and learn the right way ',
+        'Get mentorship at each phase of your learning and learn the right way in a fast and effective manner  ',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const data = {
       altText: 'World Class Training',
       title: 'Training Camps',
       text:
-        'A realtime learning and practing trainging camps with live mentorship and traning to boost your learning and reduce learning time',
+        'A real-time learning and practice training camps with live mentorship and guidance to boost your learning and give you an edge over the rest of the competition ',
     },
   ],
 };

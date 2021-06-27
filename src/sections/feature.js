@@ -17,7 +17,7 @@ const data = [
     altText: 'Practical Learning',
     title: 'Practical Learning',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'To gain practical knowledge, you need to explore various options and see what works the best.',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const data = [
     altText: 'Interaction With Expert',
     title: 'Interaction With Expert',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Interactive one to one sessions with Expert will provide you with a great opportunity to plan out your time and efforts to make the most of it.',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const data = [
     altText: 'Quizzes',
     title: 'Quizzes',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'The Best way to grow strong is to work on your weaknesses Quizzes will help you to know your weaknesses and can work on them accordingly',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const data = [
     altText: 'Real-time Assignments',
     title: 'Real-time Assignments',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Work on real-life projects which will help you get hands-on experience in building applications that are up to the standard of the industry ',
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const data = [
     altText: 'Doubt Checking',
     title: 'Doubt Checking',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'The road to learning a new skill is not that easy you make come across a lot of problems with are letting you down and you are stuck. We wont let that happen.',
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const data = [
     altText: 'Internships',
     title: 'Internships',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'When it comes down to practice your skill and make it more useful the best way to get pass it by working in a real-life environment in which our internship program helps you to shapen your skills',
   },
 ];
 
@@ -66,8 +66,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Best Benefits"
+          title="Meet exciting features"
         />
 
         <Grid sx={styles.grid}>
