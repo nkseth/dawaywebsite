@@ -27,7 +27,7 @@ export default function TextFeature({
 
       {btnName && (
         <Link href={btnURL} variant="default">
-          <Button variant="primary" aria-label={btnName}>
+          <Button variant="primary" aria-label={btnName} onClick={()=>{window.open("https://forms.gle/MmH2NwMahJ6PbgQ57")}}>
             {btnName}
           </Button>
         </Link>

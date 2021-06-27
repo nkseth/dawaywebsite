@@ -28,9 +28,9 @@ export default function IndexPage() {
           <PartnerSection />
           <WorkFlow />
           <TestimonialCard />
-          <SecurePayment />
+          
           <Package />
-          <Faq />
+         
         </Layout>
       </StickyProvider>
     </ThemeProvider>

@@ -6,10 +6,10 @@ import Image from 'components/image';
 import Partner from 'assets/partner.png';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Cutting Edge technology',
+  title: 'Learn the Most Advance and Demanding Skills',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Learn the latest technology web development, Android App development, Native App, PWD apps and IOS apps with the NodeJs Django GraphQl and much more technology to learn',
   btnName: 'Get Started',
   btnURL: '#',
 };

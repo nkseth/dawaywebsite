@@ -24,7 +24,7 @@ export default function Banner() {
           The most difficult part of making a successful carrier is getting started. Give your career a boost by learning industry skills, work on real-life projects, internships, and expert guidance.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
+            <Button onClick={()=>{window.open("https://forms.gle/MmH2NwMahJ6PbgQ57")}} variant="whiteButton" aria-label="Get Started">
              Get Started
             </Button>
             <>

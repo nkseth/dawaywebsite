@@ -36,6 +36,7 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
+            onClick={()=>{window.open("https://forms.gle/MmH2NwMahJ6PbgQ57")}}
           >
             Get Started
           </Button>

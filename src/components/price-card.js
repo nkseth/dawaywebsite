@@ -52,7 +52,7 @@ export default function PriceCard({
         >
           <Button
             variant={header ? 'primary' : 'whiteButton'}
-            aria-label={buttonText}
+            aria-label={buttonText} onClick={()=>{window.open("https://forms.gle/MmH2NwMahJ6PbgQ57")}}
           >
             {buttonText}
           </Button>

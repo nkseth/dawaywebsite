@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Learn Skills',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'To gain practical knowledge, you need to explore various options and see what works the best.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: ' Build Portfolio',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'when You practice you learn and as you learn it should also give you worth as proof of your efforts by practicing and using this practice to build a strong portfolio with help you in long run',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Internships',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'When it comes down to practice your skill and make it more useful the best way to get pass it by working in a real-life environment in which our internship program helps you to shapen your skills',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Land Your Dream Job',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'With the right skill set ,knowledge,practice and Portfolio you can easliy achive waht it take to get to your dream Job.',
   },
 ];
 

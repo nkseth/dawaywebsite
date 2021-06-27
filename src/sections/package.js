@@ -7,8 +7,8 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
+    name: '1 Month Free Plan',
+    description: 'For Students Just starting up',
     buttonText: 'Signup Now',
     points: [
       {
@@ -19,22 +19,32 @@ const packages = [
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access for all kind of Premium courses.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Unlimited Jobs and Internships Applications',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Active Profile and recommedations',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: '1 to 1 Expert guidance',
+        isAvailable: false,
+      },
+      {
+        icon: <IoIosCloseCircle />,
+        text: 'Live Sessions',
+        isAvailable: false,
+      },
+      {
+        icon: <IoIosCloseCircle />,
+        text: 'Real life project Experience',
         isAvailable: false,
       },
     ],
@@ -42,8 +52,8 @@ const packages = [
   {
     header: 'Recommended',
     name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
+    description: 'For achivers to land their Dream Job',
+    priceWithUnit: 'Rs499/',
     buttonText: 'Signup Now',
     points: [
       {
@@ -54,59 +64,37 @@ const packages = [
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access for all kind of Premium courses.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Unlimited Jobs and Internships Applications',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Active Profile and recommedations',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: '1 to 1 Expert guidance',
+        isAvailable: true,
+      },
+      {
+        icon: <IoIosCheckmarkCircle />,
+        text: 'Live Sessions',
+        isAvailable: true,
+      },
+      {
+        icon: <IoIosCheckmarkCircle />,
+        text: 'Real life project Experience',
         isAvailable: true,
       },
     ],
   },
-  {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Signup Now',
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text:
-          'Free access for all kind of exercise corrections with downloads.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: false,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
-        isAvailable: false,
-      },
-    ],
-  },
+  
 ];
 export default function Package() {
   return (
