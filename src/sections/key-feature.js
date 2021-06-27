@@ -30,7 +30,7 @@ const data = [
     altText: 'Internships',
     title: 'Internships',
     text:
-      'Industry leading curriculum designed by expert developers turned educators who have invested time to create quality content infused with unique teaching methodology.',
+      'When it comes down to practice your skill and make it more useful the best way to get pass it by working in a real-life environment in which our internship program helps you to shapen your skills',
   },
 ];
 
